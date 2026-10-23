@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
@@ -16,11 +15,6 @@
             <Font name="Bell MT Bold" size="30.0" />
          </font>
       </Label>
-      <ImageView layoutX="23.0" layoutY="12.0">
-         <image>
-            <Image url="@../../../../../../../Icons8/icons8-burger-50.png" />
-         </image>
-      </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a0a0aba" height="166.0" layoutX="-14.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#080808ba" height="126.0" layoutY="274.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
       <Rectangle arcHeight="50.0" arcWidth="50.0" disable="true" fill="#c42d2d" height="98.0" layoutX="14.0" layoutY="288.0" stroke="BLACK" strokeType="INSIDE" width="98.0" />
@@ -28,6 +22,12 @@
       <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#c42d2d" height="98.0" layoutX="367.0" layoutY="288.0" stroke="BLACK" strokeType="INSIDE" width="98.0" />
       <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#c42d2d" height="98.0" layoutX="130.0" layoutY="288.0" stroke="BLACK" strokeType="INSIDE" width="98.0" />
       <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#c42d2d" height="98.0" layoutX="251.0" layoutY="288.0" stroke="BLACK" strokeType="INSIDE" width="98.0" />
-      <Button layoutX="118.0" layoutY="128.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="363.0" text="Button" />
+      <Button layoutX="118.0" layoutY="128.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="363.0" styleClass="pill-button" stylesheets="@css/styles.css" text="PLACE ORDER" textFill="#0d0d0d">
+         <font>
+            <Font name="Algerian" size="34.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
    </children>
 </AnchorPane>
