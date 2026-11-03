@@ -34,12 +34,14 @@
 
         <!-- පහළින් තියෙන Back බට්න් එක -->
         <Button layoutX="71.0" layoutY="349.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="80.0" styleClass="pill-button" text="Back" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a0a0aba" height="65.0" layoutY="335.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
-      <TableView layoutX="26.0" layoutY="87.0" prefHeight="200.0" prefWidth="290.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a0a0aba" height="65.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <TableView layoutX="12.0" layoutY="87.0" prefHeight="200.0" prefWidth="416.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="79.20001220703125" text="C2" />
-            <TableColumn prefWidth="75.0" text="Column X" />
+          <TableColumn prefWidth="75.0" text="Order ID" />
+          <TableColumn prefWidth="79.20001220703125" text="Customer ID" />
+            <TableColumn prefWidth="75.0" text="Buger Qty" />
+            <TableColumn editable="false" prefWidth="109.60003662109375" text="Total Amout " />
+            <TableColumn prefWidth="74.39996337890625" text="Status" />
         </columns>
       </TableView>
     </children>
